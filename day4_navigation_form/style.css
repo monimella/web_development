@@ -1,0 +1,117 @@
+html{scroll-behavior:smooth;}
+.header{
+    border: solid 1px red;
+    display: flex;}
+
+    .headerlink{
+        width: 20%;
+        display:block;
+        border:solid 1px green;
+        font-size: 50px;
+        text-align: center;
+        text-decoration:none;
+
+    }
+    .headerlink:hover{
+        opacity: 0.6;
+        transform: translate x(-20px);
+    }
+    .headertitle{
+        width:70%;
+        color: red;
+        text-align:center;
+        
+    }
+/*-----SITELINKS-------*/
+.sitelinks{
+    background-color: olive;
+    display:flex;
+    justify-content:center;}
+    
+
+.navlink{
+    display:inline-block;
+    text-align:center;
+    padding: 1em 5em;
+    width: 33.3%;
+    color:whitesmoke;
+}
+ .navlink:hover{
+    background-color: whitesmoke;
+    border:dashed 1px gray;
+    color: red;
+ }
+    
+/*------MAINBODY------*/
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_div{
+    width: 66%;
+}
+.pagelinks{
+    width:30%;
+}
+.main_div section{
+    background-color: peachpuff;
+    padding: 1em 2em;}
+
+.main_div article{
+    background-color: rgb(116, 231, 231);
+    padding:1em 2em;
+}
+
+/*page links*/
+.pagelinks{
+    padding: 1em;
+}
+.linknav{
+    border-bottom:1px gray dotted;
+    display:block;
+    padding:1em;
+    text-decoration:none;
+    color: red;
+}
+.linknav:borderhover{
+    color: magenta;
+    font-weight:900;
+}
+
+/*------FIGURE------*/
+.img
+{width: 100%; display: block;}
+.figureimg{
+    width:70%;
+    margin: 2% auto;
+    position: relative;
+    box-shadow: 5px 10px 3px gray;
+    border-radius: 1px 1px 5px black;
+}
+.imgtitle{
+    position:absolute;
+    top:10%;
+    left:5%;
+    right:5%;
+    text-align: center;
+}
+
+/*-------FOOTER*/
+.contact{
+    background-color: rgb(88, 83, 83);
+    color: whitesmoke;
+    display: flex ;
+    padding:30px;
+
+}
+.contactcolumn{
+    width:33%
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration:none;
+    display: inline-block;
+    padding-right:1em;
+    opacity:0.5;
+}
+.followicon:hover{opacity:1;}
