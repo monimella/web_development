@@ -27,7 +27,7 @@ console.log(`Welcome to JS ${firstname} ${lastname[0]}`)
 }
 
 //lastname[0] to print the first character of lastname
-}
+
 
 let firstname="Monique"
 let lastname="Lawrence"
