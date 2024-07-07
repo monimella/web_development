@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart & Home Shrub Depot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="logohome.png" alt="website logo" class="logo">
+            <h1>Heart & Home Plant Depot</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+ 
+
+   
+   
+    <div class="container">
+
+        <div class="card">
+            <section class="azalea">
+                <img src="azalea.jpg" alt="azalea" class="imgazalea">
+            
+                <p class="itemname">Azalea Shrub</p>
+                <p class="itemdescription">Pink Azalea Shrub</p>
+                <p> <s> $27.95</s> <b class="saleprice">19.99</b></p>
+                <form class="formazalea" action="cart.html">
+                    <label for="quantityazalea">Quantity</label>
+                    <input type="number" name="azaleaquantity" id="quantityazalea"max="10" min="0" class="quantityinput">
+                    <input type="submit"value="Add to cart" class="azaleabtn">
+                </form>
+                
+                </section>
+        </div>
+        
+
+        <div class="card">
+            <section class="hibiscus">
+                <img src="hibiscus.jpg" alt="" class="hibiscus">
+                <p class="itemname">Hibiscus Shrub</p>
+                <p class="itemdescription"> White Hibiscus Shrub</p>
+                <p> <s> $42.95</s> <b class="saleprice">33.99</b></p>
+                <form class="formhibiscus" action="cart.html">
+                    <label for="quantityhibiscus">Quantity</label>
+                    <input type="number" name="hibiscusquantity" id="quantityhibiscus"max="10" min="0" class="quantityinput">
+                    
+                </form>
+                <input type="submit"value="Add to cart" class="hibiscusbtn">
+                </section>
+        </div>
+
+
+        
+        <div class="card">
+            <section class="forsythia">
+                <img src="forsythia.jpg" alt="" class="forsythia">
+                <p class="itemname">Forsythia Shrub</p>
+                <p class="itemdescription"> Yellow Forsythia Shrub</p>
+                <p> <s> $42.95</s> <b class="saleprice">33.99</b></p>
+                <form class="formforsythia" action="cart.html">
+                    <label for="quantityforsythia">Quantity</label>
+                    <input type="number" name="forsythiaquantity" id="quantityforsythia"max="10" min="0" class="quantityinput">
+                    
+                </form>
+                <input type="submit"value="Add to cart" class="forsythiabtn">
+                </section>
+        
+        </div>
+        
+        <div class="card">
+            <section class="lilacs">
+                <img src="lilacs.jpg" alt="" class="lilacs">
+                <p class="itemname">Lilacs Shrub</p>
+                <p class="itemdescription">Purple Lilacs Shrub</p>
+                <p> <s> $34.95</s> <b class="saleprice">29.99</b></p>
+                <form class="formlilacs" action="cart.html">
+                    <label for="quantitylilacs">Quantity</label>
+                    <input type="number" name="lilacsquantity" id="quantitylilacs"max="10" min="0" class="quantityinput">
+                    
+                </form>
+                <input type="submit"value="Add to cart" class="lilacsbtn">
+                </section>
+        
+        </div>
+
+
+    </div>
+
+<br>
+<div>
+<form id="checkoutForm">
+    <label for="buyerName">Name:</label>
+    <input type="text" id="buyerName" name="buyerName" required>
+    <label for="buyerEmail">Email:</label>
+    <input type="email" id="buyerEmail" name="buyerEmail" required>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+    <footer class="footer">
+        <div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="storage.js"></script>
+    
+</body>
+
+
+</html>
